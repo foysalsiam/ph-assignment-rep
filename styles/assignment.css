@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 151px;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  color: #4E47FF;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 34px;
+}
+nav button{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    width: 132px;
+    height: 48px;
+} 
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    max-width: 1440px;
+    height: 698px;
+    margin: 0 auto;
+}
