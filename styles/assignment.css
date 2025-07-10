@@ -14,16 +14,20 @@ nav{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   color: #4E47FF;
+  font-style: normal; 
   font-weight: 900;
-  font-style: normal;
   font-size: 34px;
+ 
 }
+
 nav button{
     color: #FFFFFF;
     background-color: #4E47FF;
     border-radius: 10px;
     width: 132px;
     height: 48px;
+    border: none;
+   
 } 
 header{
     background-image: url(../Assets/Hero-bg.png);
@@ -46,16 +50,49 @@ header{
     border-radius: 10px;
     width: 178px;
     height: 48px;
-    margin-left: 633px;
+    display: block;
+    margin: 0 auto;
     margin-top: 37px;
+    border: none;
 }
 .banner{
     display: flex;
     justify-content: center;
 }
 .banner-section{
-    border: 2px solid tomato;
     margin-top: 158px;
-    margin-left: 267.5px;
-    
+}
+/* main section start here */
+main{
+    max-width: 1140px;
+    height: 328px;
+    margin: 0 auto; 
+    margin-top: 116px;  
+}
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 42px;
+    text-align: left;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 23px;
+}
+.main-btn{
+     color: #FFFFFF;
+    background-color: #4E47FF;
+    width: 229px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 23px;
+}
+main div img{
+    border-radius: 48px;
 }
