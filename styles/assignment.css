@@ -168,3 +168,38 @@ main div img{
 .skill-item{
     margin-left: 6px;
 }
+.date{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.315);
+}
+.optional{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 208px;
+}
+.optional-paragraph{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.optional-button{
+   color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    width: 195px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+}
+.optional-img{
+    display: block;
+    margin: 0 auto;
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
