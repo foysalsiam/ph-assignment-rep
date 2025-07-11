@@ -65,7 +65,7 @@ header{
 /* main section start here */
 main{
     max-width: 1140px;
-    height: 328px;
+    /* height: 328px; */
     margin: 0 auto; 
     margin-top: 116px;  
 }
@@ -202,4 +202,50 @@ main div img{
     height: 364.77px;
     border-radius: 48px;
     margin-top: 20px;
+}
+.form-head{
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+    margin-top: 92.23px;
+    gap: 115px;
+}
+.h-center{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: left;
+}
+input{
+    width: 497px;
+    height: 70px;
+}
+.h-form{
+    text-align: right;
+    margin-right: 115px;
+}
+.radius{
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 32px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+.f-button {
+    font-size: 16px;
+    font-weight: bold;
+    width: 538px;
+    height: 72px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+
+}
+.inter{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+textarea{
+    padding-top: 20px;
 }
